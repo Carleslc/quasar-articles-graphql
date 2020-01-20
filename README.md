@@ -19,7 +19,7 @@ Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS a
   Navigate to `Data` section in the top nav bar and create a table the following tables:
 
   - `authors`
-  - `id` Integer (auto-increment)
+    - `id` Integer (auto-increment)
     - `name` Text
   
   - `articles`
