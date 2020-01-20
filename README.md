@@ -2,7 +2,10 @@
 
 Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS and postgres as database using the [quasar-cli](https://quasar-framework.org/guide/app-installation.html) and [vue-apollo](https://github.com/Akryum/vue-apollo) module.
 
-[Test Live](https://quasar-articles-graphql.netlify.com)
+# Test Live
+
+[Frontend](https://quasar-articles-graphql.netlify.com)
+[Backend](https://hasura-blog-test.herokuapp.com/)
 
 # Tutorial
 
