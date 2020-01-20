@@ -2,8 +2,6 @@
 
 Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS and postgres as database using the [quasar-cli](https://quasar-framework.org/guide/app-installation.html) and [vue-apollo](https://github.com/Akryum/vue-apollo) module.
 
-[![Edit quasar-framework-vue-graphql](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/hasura/graphql-engine/tree/master/community/sample-apps/quasar-framework-vue-graphql?fontsize=14)
-
 # Tutorial
 
 - Deploy Postgres and GraphQL Engine on Heroku with Hasura:
@@ -18,21 +16,19 @@ Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS a
 - Create `author` table:
   
   Open Hasura console: visit https://hasura-blog-test.herokuapp.com/ on a browser  
-  Navigate to `Data` section in the top nav bar and create a table as follows:
+  Navigate to `Data` section in the top nav bar and create a table the following tables:
 
-  ![Create author table](../gatsby-postgres-graphql/assets/add_table.jpg)
-
-- Insert sample data into `authors` table:
-
-  ![Insert data into author table](../gatsby-postgres-graphql/assets/insert_data.jpg)
-
-  Verify if the row is inserted successfully
-
-  ![Insert data into author table](../gatsby-postgres-graphql/assets/browse_rows.jpg)
-
-- Similarly, create an article table with the following data model:
-table: `articles`
-columns: `id`, `title`, `content`, `author_id` (foreign key to `author` table's `id`)
+  - `authors`
+  - `id` Integer (auto-increment)
+    - `name` Text
+  
+  - `articles`
+    - `id` Integer (auto-increment)
+    - `title` Text
+    - `content` Text
+    - `author_id` Integer (foreign key to `authors.id`)
+  
+- Insert sample data
 
 - Clone this repo:
   ```bash
