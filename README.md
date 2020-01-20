@@ -1,6 +1,6 @@
 # quasar-articles-graphql
 
-Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS and postgres as database using the [quasar-cli](https://quasar-framework.org/guide/app-installation.html) and [vue-apollo](https://github.com/Akryum/vue-apollo) module.
+Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS and postgres as database using the quasar-cli and vue-apollo module.
 
 # Test Live
 
