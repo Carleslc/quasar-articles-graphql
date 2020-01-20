@@ -5,6 +5,7 @@ Boilerplate to get started with Quasar Framework, Hasura GraphQL engine as CMS a
 # Test Live
 
 [Frontend](https://quasar-articles-graphql.netlify.com)
+
 [Backend](https://hasura-blog-test.herokuapp.com/)
 
 # Tutorial
